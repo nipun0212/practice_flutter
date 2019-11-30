@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "371293133556",
+    "firebase_url": "https://log-in-cafca.firebaseio.com",
+    "project_id": "log-in-cafca",
+    "storage_bucket": "log-in-cafca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371293133556:android:c6722ea25730dc4061dca1",
+        "android_client_info": {
+          "package_name": "com.shivsubhash.practice_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371293133556-u6sb0hkenvjieshiuorn420c7q7k1nrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEsN7KdoWJoGu9m54VBqBlxTnRFosUQ6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371293133556-u6sb0hkenvjieshiuorn420c7q7k1nrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
