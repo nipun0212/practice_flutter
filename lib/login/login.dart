@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:practice_flutter/login/otp.dart';
 import 'phoneNumberLogin.dart';
 import '../sample.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -132,6 +133,15 @@ class _LoginState extends State<Login> {
                           verificationFailed: (AuthException error) {
                             print("error1");
                             print(error.message);
+                            Fluttertoast.showToast(
+                                msg: "You are not connected to internet",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIos: 1,
+                                textColor: Colors.white,
+                                backgroundColor: Colors.red,
+                                fontSize: 12.0
+                            );
                           });
                     },
                     color: Colors.green,
